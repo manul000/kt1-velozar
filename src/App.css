@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    color: #22356f;
+    background: white;
+    font-family: Arial, sans-serif;
+}
+button,
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+a {
+    color: inherit;
+}
+a:focus-visible,
+button:focus-visible {
+    outline: 3px solid #22356f;
+    outline-offset: 5px;
+}
+.landing {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+h1,
+h2,
+p {
+    margin: 0;
+}
+section {
+    scroll-margin-top: 20px;
+}
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+}

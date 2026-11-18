@@ -1,0 +1,26 @@
+.rental {
+    display: grid;
+    grid-template-columns: minmax(0, 635fr) minmax(0, 805fr);
+    min-height: 800px;
+}
+.rental > img {
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
+@media (max-width: 1100px) {
+    .rental {
+        min-height: 600px;
+    }
+    .rental > img {
+        height: 600px;
+    }
+}
+@media (max-width: 650px) {
+    .rental {
+        grid-template-columns: 1fr;
+    }
+    .rental > img {
+        height: 450px;
+    }
+}

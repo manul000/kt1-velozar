@@ -1,0 +1,22 @@
+.comment {
+    min-height: 633px;
+    padding: 245px 280px 130px 385px;
+    font-size: 24px;
+    font-style: italic;
+    line-height: 1.5;
+}
+.comment p + p {
+    margin-top: 32px;
+}
+@media (max-width: 1100px) {
+    .comment {
+        min-height: auto;
+        padding: 110px 15%;
+    }
+}
+@media (max-width: 650px) {
+    .comment {
+        padding: 70px 24px;
+        font-size: 21px;
+    }
+}
